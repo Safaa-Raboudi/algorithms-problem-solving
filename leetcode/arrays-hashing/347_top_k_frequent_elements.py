@@ -18,3 +18,11 @@ class Solution:
         sorted_nums = sorted(freq, key=freq.get, reverse=True)
 
         return sorted_nums[:k]
+    
+# Example
+nums = [1, 1, 1, 2, 2, 3]
+k = 2
+
+solution = Solution()
+
+print(solution.topKFrequent(nums, k))

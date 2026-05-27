@@ -27,3 +27,11 @@ class Solution
         return array_slice(array_keys($freq), 0, $k);
     }
 }
+
+// Example
+$nums = [1, 1, 1, 2, 2, 3];
+$k = 2;
+
+$solution = new Solution();
+
+print_r($solution->topKFrequent($nums, $k));
